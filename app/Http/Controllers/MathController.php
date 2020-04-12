@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\View;
 
 class MathController extends Controller
 {
-    //
+    //sumアクション
     public function sum($x, $y) {
         $sum = $x + $y;
     
